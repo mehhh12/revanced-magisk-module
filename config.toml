@@ -6,14 +6,14 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-build-mode = "both"
+build-mode = "module"
 excluded-patches = ""
 included-patches = ""
-version = "auto"
+version = "latest"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Music]
-build-mode = "both"
+[YT Music]
+build-mode = "module"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 arch = "both"
 
