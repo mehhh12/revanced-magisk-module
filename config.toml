@@ -6,11 +6,11 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+arch = "arm64-v8a"
 build-mode = "module"
-excluded-patches = ""
-included-patches = ""
 version = "latest"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+included-patches = "'Enable slide to seek' 'Remove player controls background'"
 
 [YT Music]
 build-mode = "module"
