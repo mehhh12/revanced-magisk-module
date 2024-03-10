@@ -15,6 +15,12 @@ build-mode = "module"
 version = "latest"
 included-patches = "'Hide player button background' 'Premium heading'"
 
+[YouTube]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+arch = "arm64-v8a"
+build-mode = "module"
+version = "latest"
+included-patches = "'Enable slide to seek' 'Remove player controls background'"
 
 [YT Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
