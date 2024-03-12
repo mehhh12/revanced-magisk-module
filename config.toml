@@ -7,20 +7,14 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
 arch = "arm64-v8a"
 build-mode = "module"
 version = "latest"
-included-patches = "'Hide player button background' 'Premium heading'"
+included-patches = "'Enable slide to seek' 'Remove player controls background'"
 
 [YT Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
 arch = "arm64-v8a"
-build-mode = "module"
+build-mode = "both"
 version = "latest"
-included-patches = "'Enable color match player' 'Enable zen mode' 'Hide player overlay filter' 'Hide voice search button' 'Replace cast button'"
+included-patches = "'Permanent repeat' 'Permanent shuffle' 'Compact header'"
