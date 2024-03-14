@@ -8,7 +8,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
-build-mode = "module"
+build-mode = "latest"
 version = "beta"
 included-patches = "'Enable slide to seek' 'Remove player controls background'"
 
