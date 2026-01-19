@@ -1,6 +1,6 @@
 {
-  "version": "v8.25.54 (patches 5.47.0)",
-  "versionCode": 114,
-  "zipUrl": "https://github.com/mehhh12/revanced-magisk-module/releases/download/114/music-revanced-magisk-v8.25.54-arm-v7a.zip",
+  "version": "v8.25.54 (patches 5.48.0)",
+  "versionCode": 115,
+  "zipUrl": "https://github.com/mehhh12/revanced-magisk-module/releases/download/115/music-revanced-magisk-v8.25.54-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/mehhh12/revanced-magisk-module/update/build.md"
 }
